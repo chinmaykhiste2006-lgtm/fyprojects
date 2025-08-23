@@ -1,6 +1,6 @@
-Perfect 👍 Here’s the **entire README.md content in one copyable block** for your project:
 
-```markdown
+
+
 # 🤖 AI Text Detection & Plagiarism Checker  
 
 ## 📌 Description  
