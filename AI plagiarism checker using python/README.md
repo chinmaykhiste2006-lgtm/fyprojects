@@ -1,6 +1,11 @@
 
+with **four backticks instead of three**. That keeps the rest of your README stuck inside a code block, so headings like `## ▶️ Usage` don’t render properly.  
 
+---
 
+✅ Here’s the **fixed version** (copy-paste as is):  
+
+```markdown
 # 🤖 AI Text Detection & Plagiarism Checker  
 
 ## 📌 Description  
@@ -19,12 +24,10 @@ A Python-based project that predicts whether a text file is **AI-generated** or 
 
 ## 📂 Project Structure  
 ```
-
-├── plag4.py   # Core logic: AI detection + plagiarism checking
-├── app.py     # User interface for easy testing
-├── README.md  # Project documentation
-
-````
+├── plag4.py   # Core logic: AI detection + plagiarism checking  
+├── app.py     # User interface for easy testing  
+├── README.md  # Project documentation  
+```
 
 ---
 
@@ -33,62 +36,57 @@ A Python-based project that predicts whether a text file is **AI-generated** or 
    ```bash
    git clone https://github.com/your-username/your-repo-name.git
    cd your-repo-name
-````
+   ```
 
-2. Install dependencies:
-
+2. Install dependencies:  
    ```bash
    pip install -r requirements.txt
    ```
 
 ---
 
-## ▶️ Usage
+## ▶️ Usage  
 
-### Run AI detection + plagiarism check:
-
+### Run AI detection + plagiarism check:  
 ```bash
 python plag4.py
 ```
 
-### Run user interface:
-
+### Run user interface:  
 ```bash
 python app.py
 ```
 
 ---
 
-## 📊 Example Output
+## 📊 Example Output  
 
 ```
-[AI Detection] File1.txt → 72% AI-generated
-[Plagiarism] File1.txt vs File2.txt → 45% similarity
-```
-
----
-
-## ✅ Future Enhancements
-
-* Add support for **PDF/DOCX/Online text detection**.
-* Improve AI detection accuracy with **deep learning models**.
-* Highlight plagiarized or AI-generated sections of text.
-* Deploy as a **web-based tool**.
-
----
-
-## 👨‍💻 Authors
-
-* Chinmay Rajesh Khiste(Head)
-* Sharwill Kiran Khisti
-* Shraddha Prakash Khetmalis
-* Sairaj Ramesh Khot
-* Krishna Dinesh Khiraiya
-* Ritesh Vijay Khotale
-
+[AI Detection] File1.txt → 72% AI-generated  
+[Plagiarism] File1.txt vs File2.txt → 45% similarity  
 ```
 
 ---
 
+## ✅ Future Enhancements  
+- Add support for **PDF/DOCX/Online text detection**.  
+- Improve AI detection accuracy with **deep learning models**.  
+- Highlight plagiarized or AI-generated sections of text.  
+- Deploy as a **web-based tool**.  
 
+---
+
+## 👨‍💻 Authors  
+- Chinmay Rajesh Khiste (Head)  
+- Sharwill Kiran Khisti  
+- Shraddha Prakash Khetmalis  
+- Sairaj Ramesh Khot  
+- Krishna Dinesh Khiraiya  
+- Ritesh Vijay Khotale  
 ```
+
+---
+
+Now, everything **after Installation will render properly** (headings, lists, and code blocks).  
+
+👉 Do you want me to also make a **requirements.txt** for your project from the code you uploaded, so your teammates don’t face issues installing dependencies?
