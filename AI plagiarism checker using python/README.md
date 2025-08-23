@@ -1,9 +1,4 @@
-
-with **four backticks instead of three**. That keeps the rest of your README stuck inside a code block, so headings like `## ▶️ Usage` don’t render properly.  
-
----
-
-✅ Here’s the **fixed version** (copy-paste as is):  
+ 
 
 ```markdown
 # 🤖 AI Text Detection & Plagiarism Checker  
@@ -87,6 +82,4 @@ python app.py
 
 ---
 
-Now, everything **after Installation will render properly** (headings, lists, and code blocks).  
 
-👉 Do you want me to also make a **requirements.txt** for your project from the code you uploaded, so your teammates don’t face issues installing dependencies?
