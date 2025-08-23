@@ -88,9 +88,9 @@ Door is opening...
 ---
 
 ## 👨‍💻 Authors
-- Chinmay Rajesh Khiste (Head)
-- Sharwill Kiran Khisti
-- Shraddha Prakash Khetmalis
-- Sairaj Ramesh Khot
-- Krishna Dinesh Khiraiya
-- Ritesh Vijay Khotale
+- Chinmay Rajesh Khiste (Group Leader) 
+- Sharwill Kiran Khisti 
+- Shraddha Prakash Khetmalis 
+- Sairaj Ramesh Khot  
+- Krishna Dinesh Khiraiya 
+- Ritesh Vijay Khotale 
