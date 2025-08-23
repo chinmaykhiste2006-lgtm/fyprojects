@@ -1,85 +1,97 @@
+Ah! I understand — you want the README to **look visually sharp and organized on GitHub**, with proper headings, badges, and spacing so it renders nicely. Let me rewrite it in a **well-styled Markdown** version that will display clearly when uploaded:
+
 ```markdown
 # 🧠 Cephalometric Landmark Detection
 
-![Python](https://img.shields.io/badge/Python-3.8+-blue.svg)  
-![PyTorch](https://img.shields.io/badge/PyTorch-2.x-red.svg)  
-![Streamlit](https://img.shields.io/badge/Streamlit-App-brightgreen.svg)  
-![Status](https://img.shields.io/badge/Status-Active-success.svg)
+![Python](https://img.shields.io/badge/Python-3.8+-blue) ![PyTorch](https://img.shields.io/badge/PyTorch-2.x-red) ![Streamlit](https://img.shields.io/badge/Streamlit-App-brightgreen) ![Status](https://img.shields.io/badge/Status-Active-success)
 
 ---
 
-## Project Overview
-Automated **Cephalometric Landmark Detection** using **deep learning**. The system predicts **19 anatomical landmarks** on lateral skull X-rays for applications in **orthodontics, craniofacial surgery planning, and diagnostic analysis**.
+## 📌 Project Overview
+**Cephalometric Landmark Detection** is an automated system using **deep learning** to predict **19 anatomical landmarks** on lateral skull X-rays. This is useful in:
 
-Key components:
-- PyTorch **training & evaluation pipeline**
-- **Mean Euclidean Error (MEE)** computation in pixels and millimeters
-- Overlay visualization of **predicted vs ground truth landmarks**
-- Interactive **Streamlit web app** for real-time predictions
+- Orthodontics
+- Craniofacial surgery planning
+- Diagnostic analysis
 
----
+The system includes:
 
-## Features
-- Pretrained **ResNet18 backbone** fine-tuned for landmark regression
-- **Custom PyTorch Dataset** with resizing and augmentation
-- Augmentations: horizontal flip, brightness adjustment
-- Training with **MSELoss** and validation with **MEE tracking**
-- Evaluation script generating **overlay images and metrics**
-- **Streamlit app** with visualization and CSV export
+- PyTorch **training and evaluation pipelines**
+- **Mean Euclidean Error (MEE)** computation (pixels & millimeters)
+- Visualization of **predicted vs. ground truth landmarks**
+- Interactive **Streamlit web application** for real-time predictions
 
 ---
 
-## Repository Structure
+## 🚀 Features
+
+- **ResNet18 backbone** (pretrained on ImageNet) with custom regression head  
+- **Custom PyTorch Dataset** with image resizing and augmentation  
+- Data augmentation: **horizontal flip**, **brightness adjustment**  
+- Training with **MSELoss** and validation with **MEE tracking**  
+- Evaluation script saving **overlay images and metrics**  
+- Streamlit app with **interactive visualization and CSV export**
+
+---
+
+## 📂 Repository Structure
+
 ```
 
 Cephalometric-Landmark-Detection/
 │── dataset\_loader.py       # Custom PyTorch Dataset
 │── model.py                # ResNet18-based CNN model
 │── train.py                # Training script
-│── evaluate.py             # Evaluation + visualization
-│── app.py                  # Streamlit web app
+│── evaluate.py             # Evaluation & visualization
+│── app.py                  # Streamlit web application
 │── utils.py                # Helper functions
 │── best\_model.pth          # Saved model weights
 │── mee\_score.txt           # Evaluation results
 │── requirements.txt        # Dependencies
-│── README.md               # Project documentation
+│── README.md               # Documentation
 │
 ├── Cephalometric dataset/
 │   ├── cepha400/           # X-ray images
-│   ├── train\_senior.csv    # Training CSV
-│   ├── test1\_senior.csv    # Validation CSV
-│   ├── test2\_senior.csv    # Test CSV
+│   ├── train\_senior.csv    # Training data
+│   ├── test1\_senior.csv    # Validation data
+│   ├── test2\_senior.csv    # Test data
 │
-├── output\_images/          # Landmark overlay images
+├── output\_images/          # Predicted landmark overlay images
 
 ```
 
 ---
 
-## Dataset
-- **Source**: Public cephalometric dataset (400+ lateral skull X-rays)
-- **Annotations**: CSV files with image paths + **19 (x,y) landmark coordinates**
+## 📊 Dataset
+
+- **Source**: Public cephalometric dataset (400+ lateral skull X-rays)  
+- **Annotations**: CSV files with image paths + 19 (x, y) landmark coordinates  
 - **Preprocessing**:
   - Images resized to **512×512**
-  - Landmarks scaled accordingly
-  - Augmentations applied during training
+  - Landmarks scaled to match resized images
+  - Optional augmentations applied during training
 
 ---
 
-## Model Architecture
-- **Backbone**: ResNet18 pretrained on ImageNet
+## 🏗 Model Architecture
+
+- **Backbone**: ResNet18 pretrained on ImageNet  
 - **Regression Head**:
+
 ```
 
 Flatten → Linear(512 → 256) → ReLU → Dropout(0.3) → Linear(256 → 38)
 
 ````
-- **Output**: 38 values → 19 landmarks (x,y)
+
+- **Output**: 38 values → 19 landmarks (x, y)
 
 ---
 
-## Training
-Run:
+## ⚙️ Training
+
+Run training:
+
 ```bash
 python train.py
 ````
@@ -89,7 +101,7 @@ python train.py
 * **Batch Size**: 32
 * **Epochs**: 50
 
-Sample training log:
+Sample log:
 
 ```
 Epoch 10/50 | Train Loss: 0.0021 | Val Loss: 0.0030 | MEE: 2.15 px / 0.57 mm
@@ -98,9 +110,9 @@ Epoch 10/50 | Train Loss: 0.0021 | Val Loss: 0.0030 | MEE: 2.15 px / 0.57 mm
 
 ---
 
-## Evaluation
+## 📈 Evaluation
 
-Run:
+Run evaluation:
 
 ```bash
 python evaluate.py
@@ -108,21 +120,21 @@ python evaluate.py
 
 * Computes **per-image and average MEE**
 * Saves **overlay images** in `output_images/`
-* Final score saved in `mee_score.txt`
+* Stores final score in `mee_score.txt`
 
 ---
 
-## Streamlit Web App
+## 💻 Streamlit Web Application
 
-Run:
+Run the web app:
 
 ```bash
 streamlit run app.py
 ```
 
-### Features
+### Features:
 
-* Upload cephalometric X-ray → get predicted landmarks
+* Upload X-ray → get predicted landmarks
 * Toggle overlays:
 
   * Ground truth landmarks
@@ -135,32 +147,32 @@ streamlit run app.py
   * Mean Euclidean Error (MEE)
   * Intensity histogram
   * Quadrant distribution
-* Download predictions as **CSV**
+* Download predicted landmarks as **CSV**
 
 ---
 
-## Results
+## 📊 Results
 
 * Achieved **Mean Euclidean Error (MEE)**:
 
 ```
-X.XX px  ≈  Y.YY mm
+X.XX px ≈ Y.YY mm
 ```
 
-* Predicted landmarks show strong alignment with ground truth
+* Predicted landmarks closely match ground truth landmarks
 
 ---
 
-## Future Scope
+## 🔮 Future Scope
 
 * Heatmap-based landmark detection
 * Transformer-based architectures for global context
 * Semi-supervised learning with unlabeled data
-* Larger datasets for improved generalization
+* Larger datasets for better generalization
 
 ---
 
-## Team Members
+## 👨‍💻 Team Members
 
 * Member 1 – Model Development
 * Member 2 – Data Preprocessing
@@ -173,5 +185,7 @@ X.XX px  ≈  Y.YY mm
 
 ---
 
+If you want, I can **also create a visually appealing “GitHub ready” badges + table for dataset, results, and dependencies** so your README looks **like a professional paper**.  
 
+Do you want me to do that next?
 ```
