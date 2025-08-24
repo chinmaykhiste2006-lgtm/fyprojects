@@ -1,83 +1,99 @@
+Perfect 👍 I’ll now give you the **full `README.md` file** for your **Cephalometric Landmark Detection project** with:
 
+* 🎨 A styled **header (centered, badges, tagline)**
+* 📖 Introduction, Features, Dataset, Model, Installation, Usage
+* 👥 Authors (with **Sharwill Kiran Khisti as leader**)
+* 🚀 Clean single file (no breaking, ready for GitHub)
 
-```markdown
+Here’s your final file:
+
+````markdown
+<div align="center">
+
 # 🧠 Cephalometric Landmark Detection  
 
-## 📌 Project Overview  
-This project focuses on **automatic cephalometric landmark detection** using deep learning.  
-We developed a convolutional neural network (CNN) model based on **ResNet18** to detect 19 anatomical landmarks (38 coordinate values) from cephalometric X-ray images.  
+### Deep Learning for Automated Orthodontic Landmark Detection  
 
-The system is designed to assist in orthodontic and craniofacial analysis by automating landmark identification, which is usually a time-consuming manual task for experts.  
+![Python](https://img.shields.io/badge/Python-3.8+-blue?logo=python)  
+![PyTorch](https://img.shields.io/badge/PyTorch-2.0+-red?logo=pytorch)  
+![Status](https://img.shields.io/badge/Status-Active-brightgreen)  
+![Contributions](https://img.shields.io/badge/Contributions-Welcome-orange)  
+
+</div>
 
 ---
 
-## 🚀 Features  
-- Pretrained **ResNet18 backbone** for feature extraction.  
-- Custom regression head for predicting **(x, y)** landmark coordinates.  
-- **Adaptive scaling** of landmarks from original resolution to 512×512 input size.  
-- **Augmentation techniques**: horizontal flip and brightness variation.  
-- **PyTorch dataset pipeline** for efficient training and validation.  
+## 📌 Introduction  
+Cephalometric analysis is an essential step in orthodontic diagnosis and treatment planning. Traditionally, clinicians manually annotate anatomical landmarks on cephalograms — a process that is time-consuming and prone to variability.  
+
+This project implements an **AI-powered Cephalometric Landmark Detection system** using a **ResNet18-based CNN** to automatically localize 19 key landmarks on cephalometric radiographs. Our approach reduces manual effort, improves consistency, and demonstrates how deep learning can assist in medical imaging tasks.  
+
+---
+
+## ✨ Features  
+- 🖼️ **Automatic landmark detection** on cephalometric X-rays.  
+- ⚡ **ResNet18 backbone** for robust feature extraction.  
+- 🔄 **Data preprocessing & augmentation** (resizing, flipping, brightness).  
+- 📊 **Scalable pipeline** for training and evaluation.  
+- 🧪 Outputs **38 coordinates** (x, y for each of 19 landmarks).  
 
 ---
 
 ## 📂 Dataset  
-- Dataset consists of cephalometric X-ray images (`.png/.jpg`).  
-- Landmarks are provided in a CSV file with structure:  
-```
+- Images: Cephalometric radiographs (original size: **2400 × 1935**).  
+- Labels: CSV files containing 19 anatomical landmarks per image.  
+- Preprocessing: Images resized to **512 × 512**, landmarks scaled accordingly.  
 
-image\_path, x1, y1, x2, y2, ... , x19, y19
-
-````
-- Images are resized to **512×512** for training.  
-- Landmarks are automatically scaled to match resized images.  
+⚠️ Dataset is private/academic and not included here.  
 
 ---
 
 ## 🏗️ Model Architecture  
-1. **Backbone:** ResNet18 pretrained on ImageNet (last classification layers removed).  
-2. **Global Average Pooling:** reduces feature maps to vector form.  
-3. **Regression Head:** fully connected layers to map features → landmark coordinates.  
-
-Output shape:  
-- `19 × 2 = 38` values (x, y coordinates).  
+- Backbone: **ResNet18 (pretrained on ImageNet)**, truncated before final layers.  
+- Global Average Pooling: Reduces feature maps to (512, 1, 1).  
+- Regression Head:  
+  - Linear(512 → 256) + ReLU + Dropout(0.3)  
+  - Linear(256 → 38) → Outputs (x, y) pairs for 19 landmarks.  
 
 ---
 
 ## ⚙️ Installation  
-Clone the repository:  
-```bash
-git clone https://github.com/your-username/cephalometric-landmark-detection.git
-cd cephalometric-landmark-detection
-````
-
-Install dependencies:
+Clone the repo and install dependencies:  
 
 ```bash
+git clone https://github.com/<your-username>/Cephalometric-Landmark-Detection.git
+cd Cephalometric-Landmark-Detection
 pip install -r requirements.txt
-```
+````
 
 ---
 
 ## ▶️ Usage
 
-### Training the Model
+### Training
 
 ```bash
-python train.py --csv train.csv --images cepha400/ --epochs 50 --batch_size 8
+python train.py --csv train.csv --images ./cepha400/ --epochs 50
 ```
 
-### Testing / Evaluation
+### Testing
 
 ```bash
-python test.py --csv test.csv --images cepha400/ --weights model.pth
+python test.py --csv test.csv --images ./cepha400/
 ```
+
+### Sample Output
+
+* Input: Cephalometric X-ray
+* Output: Image with 19 predicted landmarks
 
 ---
 
-## 📊 Example Output
+## 📊 Results
 
-* Input: Cephalometric X-ray (512×512)
-* Output: 19 predicted landmarks (visualized as plotted points).
+* Model successfully detects **19 landmarks** on cephalometric images.
+* Robust against basic augmentations (flip, brightness).
+* Performance measured using landmark localization accuracy.
 
 ---
 
@@ -92,7 +108,17 @@ python test.py --csv test.csv --images cepha400/ --weights model.pth
 
 ---
 
+## 🚀 Future Work
 
+* Improve model accuracy with deeper CNN/Transformer-based architectures.
+* Add visualization tool for better interpretability.
+* Deploy as a web app for clinical usability.
 
+---
 
+```
 
+This is **ready to paste as `README.md`** in your repo 🎯.  
+
+Do you want me to also prepare a **`requirements.txt`** file matching your code (PyTorch, torchvision, pandas, Pillow, etc.) so upload is smooth?
+```
