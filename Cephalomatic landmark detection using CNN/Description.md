@@ -21,6 +21,8 @@ git clone https://github.com/<your-username>/Cephalometric-Landmark-Detection.gi
 cd Cephalometric-Landmark-Detection
 pip install -r requirements.txt
 
+---
+
 ▶️ Usage
 Training
 python train.py --csv train.csv --images ./cepha400/ --epochs 50
@@ -30,6 +32,9 @@ Output
 Input: Cephalometric X-ray
 Output: Same image with 19 predicted landmarks
 <p align="center"> <img src="assets/sample.png" alt="Sample Output" width="400"/> </p>
+
+--
+
 🧪 Results
 ✅ Detects 19 landmarks on cephalograms
 🔄 Robust to flips and brightness changes
