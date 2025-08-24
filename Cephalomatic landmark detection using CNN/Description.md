@@ -26,6 +26,9 @@ pip install -r requirements.txt
 Got it 👍 I’ll only give you the part **starting from Usage onwards** in the same GitHub README format:
 
 ````markdown
+Perfect 👌 Here’s the **Usage → Authors** part with roles added for each member (in the same GitHub README.md format):
+
+````markdown
 ## ▶️ Usage  
 ### Training  
 ```bash
@@ -71,14 +74,14 @@ python test.py --csv test.csv --images ./cepha400/
 
 ## 👨‍💻 Authors
 
-* **Sharwill Kiran Khisti (Group Leader)**
-* **Chinmay Rajesh Khiste**
-* **Shraddha Prakash Khetmalis**
-* **Sairaj Ramesh Khot**
-* **Krishna Dinesh Khiraiya**
-* **Ritesh Vijay Khotale**
+* **Sharwill Kiran Khisti (Group Leader, Model Development & Training)**
+* **Chinmay Rajesh Khiste (Data Preprocessing & Augmentation)**
+* **Shraddha Prakash Khetmalis (Testing & Evaluation)**
+* **Sairaj Ramesh Khot (Documentation & Report Writing)**
+* **Krishna Dinesh Khiraiya (Visualization & Results Analysis)**
+* **Ritesh Vijay Khotale (Research & Literature Survey)**
 
 ```
-
 ```
+
 
