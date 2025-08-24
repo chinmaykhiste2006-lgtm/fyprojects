@@ -23,31 +23,62 @@ pip install -r requirements.txt
 
 ---
 
-▶️ Usage
-Training
+Got it 👍 I’ll only give you the part **starting from Usage onwards** in the same GitHub README format:
+
+````markdown
+## ▶️ Usage  
+### Training  
+```bash
 python train.py --csv train.csv --images ./cepha400/ --epochs 50
-Testing / Inference
+````
+
+### Testing / Inference
+
+```bash
 python test.py --csv test.csv --images ./cepha400/
-Output
-Input: Cephalometric X-ray
-Output: Same image with 19 predicted landmarks
-<p align="center"> <img src="assets/sample.png" alt="Sample Output" width="400"/> </p>
+```
 
---
+### Output
 
-🧪 Results
-✅ Detects 19 landmarks on cephalograms
-🔄 Robust to flips and brightness changes
-📏 Evaluation metric: Mean Euclidean Distance Error
-<p align="center"> <img src="assets/results.png" alt="Results" width="500"/> </p>
-✅ Future Enhancements
-📈 Improve accuracy with deeper CNNs / transformers
-🖥️ Add clinical visualization tools
-🌐 Deploy as a web/desktop app for orthodontists
-👨‍💻 Authors
-Sharwill Kiran Khisti (Group Leader)
-Chinmay Rajesh Khiste
-Shraddha Prakash Khetmalis
-Sairaj Ramesh Khot
-Krishna Dinesh Khiraiya
-Ritesh Vijay Khotale
+* **Input**: Cephalometric X-ray
+* **Output**: Same image with **19 predicted landmarks**
+
+<p align="center">  
+  <img src="assets/sample.png" alt="Sample Output" width="400"/>  
+</p>  
+
+---
+
+## 🧪 Results
+
+* ✅ Detects **19 landmarks** on cephalograms
+* 🔄 Robust to flips and brightness changes
+* 📏 Evaluation metric: **Mean Euclidean Distance Error**
+
+<p align="center">  
+  <img src="assets/results.png" alt="Results" width="500"/>  
+</p>  
+
+---
+
+## ✅ Future Enhancements
+
+* 📈 Improve accuracy with deeper CNNs / transformers
+* 🖥️ Add clinical visualization tools
+* 🌐 Deploy as a web/desktop app for orthodontists
+
+---
+
+## 👨‍💻 Authors
+
+* **Sharwill Kiran Khisti (Group Leader)**
+* **Chinmay Rajesh Khiste**
+* **Shraddha Prakash Khetmalis**
+* **Sairaj Ramesh Khot**
+* **Krishna Dinesh Khiraiya**
+* **Ritesh Vijay Khotale**
+
+```
+
+```
+
