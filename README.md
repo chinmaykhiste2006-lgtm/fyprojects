@@ -65,12 +65,12 @@ Each project demonstrates problem-solving, coding proficiency, and collaboration
 ## ​ Contributors  
 These projects were completed **in collaboration with my peers** as part of group assignments.
 
-- 👨‍💻 **Chinmay Rajesh Khiste** – [GitHub](https://github.com/YOUR-USERNAME) *(Maintainer)*  
-- **Sharwill Kiran Khisti** – [GitHub](https://github.com/placeholder)  
-- **Shraddha Prakash Khetmalis** – [GitHub](https://github.com/placeholder)  
-- **Sairaj Ramesh Khot** – [GitHub](https://github.com/placeholder)  
-- **Krishna Dinesh Khiraiya** – [GitHub](https://github.com/placeholder)  
-- **Ritesh Vijay Khotale** – [GitHub](https://github.com/placeholder)  
+- 👨‍💻 **Chinmay Rajesh Khiste** – [GitHub](https://github.com/chinmaykhiste2006-lgtm) *(Maintainer)*  
+- **Sharwill Kiran Khisti** – [GitHub](https://github.com/sharwillkhisti)  
+- **Shraddha Prakash Khetmalis** – 
+- **Sairaj Ramesh Khot** –  
+- **Krishna Dinesh Khiraiya** 
+- **Ritesh Vijay Khotale**  
 
 *(Replace “placeholder” with each person’s actual GitHub username or link when available.)*
 
