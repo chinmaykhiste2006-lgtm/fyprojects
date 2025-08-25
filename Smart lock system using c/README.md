@@ -19,7 +19,7 @@ A Windows console-based **Smart Lock** written in C. It supports multiple doors,
 ## 📂 Project Structure
 ```
 ├── lock.c     # Smart Lock implementation (Windows C console app)
-└── Description.md  # Project documentation
+└── README.md  # Project documentation
 ```
 
 ---
