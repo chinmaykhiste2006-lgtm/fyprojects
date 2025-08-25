@@ -83,4 +83,4 @@ These projects were completed **in collaboration with my peers** as part of grou
 
 ---
 
-✨ *This repository documents the first step of my engineering journey. Stay tuned for more advanced projects in the upcoming years!*  
+✨ *This repository documents the initials of my engineering journey. Stay tuned for more advanced projects in the upcoming years!*  
