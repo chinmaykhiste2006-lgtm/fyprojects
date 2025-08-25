@@ -58,8 +58,8 @@ Each project demonstrates problem-solving, coding proficiency, and collaboration
 
 ## ​ About This Repository  
 - 📚 Developed as part of **First-Year Engineering group projects**.  
-- 🌱 Represents my early journey into **AI/ML, Computer Vision, and Embedded Systems**.  
-- 🔮 Foundation for upcoming **Second-Year and Third-Year projects** where I will dive deeper into advanced technologies.  
+- 🌱 Represents my early journey into **AI/ML, Computer Vision, and Logic Developemene**.  
+- 🔮 Foundation for **upcoming projects** where I will dive deeper into advanced technologies.  
 
 ---
 
