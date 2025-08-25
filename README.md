@@ -78,7 +78,7 @@ These projects were completed **in collaboration with my peers** as part of grou
 
 ## ​​​ Repository Maintainer  
 **Chinmay Rajesh Khiste**  
-- 🌐 [View My GitHub Profile](https://github.com/YOUR-USERNAME)  
+- 🌐 [View My GitHub Profile](https://github.com/chinmaykhiste2006-lgtm)  
 - 💼 Aspiring Software & AI Engineer | Passionate about coding, AI, and real-world applications  
 
 ---
