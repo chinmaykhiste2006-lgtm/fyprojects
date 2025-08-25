@@ -11,7 +11,7 @@ Each project demonstrates problem-solving, coding proficiency, and collaboration
 
 ### ​ [Smart Lock System using C](./Smart%20lock%20system%20using%20c)  
 - 🔒 **Objective**: Design and implement a password-protected smart lock system using microcontroller programming.  
-- 🛠 **Tech Stack**: C Programming, Embedded Systems, Arduino/8051.  
+- 🛠 **Tech Stack**: C Programming, .  
 - 📌 **Key Features**:  
   - User authentication with password input.  
   - Lock/unlock mechanism controlled via microcontroller.  
