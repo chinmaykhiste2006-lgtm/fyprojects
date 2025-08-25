@@ -67,7 +67,7 @@ These projects were completed **in collaboration with my peers** as part of grou
 
 - 👨‍💻 **Chinmay Rajesh Khiste** – [GitHub](https://github.com/chinmaykhiste2006-lgtm) *(Maintainer)*  
 - **Sharwill Kiran Khisti** – [GitHub](https://github.com/sharwillkhisti)  
-- **Shraddha Prakash Khetmalis** – 
+- **Shraddha Prakash Khetmalis** – [GitHub](https://github.com/shraddhaa009) 
 - **Sairaj Ramesh Khot** –  
 - **Krishna Dinesh Khiraiya** 
 - **Ritesh Vijay Khotale**  
