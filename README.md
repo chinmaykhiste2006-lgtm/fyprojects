@@ -1,7 +1,7 @@
 # ​ First-Year Engineering Projects  
 
 Welcome to my repository of **First-Year Engineering Projects**.  
-This repository is a curated collection of my initial explorations into **software development, artificial intelligence, and embedded systems**.  
+This repository is a curated collection of my initial explorations into **software development, artificial intelligence, and machine learning**.  
 
 Each project demonstrates problem-solving, coding proficiency, and collaboration skills developed during my first year of engineering.  
 
@@ -11,7 +11,7 @@ Each project demonstrates problem-solving, coding proficiency, and collaboration
 
 ### ​ [Smart Lock System using C](./Smart%20lock%20system%20using%20c)  
 - 🔒 **Objective**: Design and implement a password-protected smart lock system using microcontroller programming.  
-- 🛠 **Tech Stack**: C Programming, .  
+- 🛠 **Tech Stack**: C Programming.  
 - 📌 **Key Features**:  
   - User authentication with password input.  
   - Lock/unlock mechanism controlled via microcontroller.  
