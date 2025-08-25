@@ -64,7 +64,7 @@ python app.py
 ---
 
 ## 👨‍💻 Authors
-- Chinmay Rajesh Khiste (Head)
+- Chinmay Rajesh Khiste (Group Leader)
 - Sharwill Kiran Khisti
 - Shraddha Prakash Khetmalis
 - Sairaj Ramesh Khot
