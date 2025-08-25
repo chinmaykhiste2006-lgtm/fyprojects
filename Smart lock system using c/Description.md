@@ -1,7 +1,7 @@
 # 🔐 Smart Lock System (C)
 
 ## 📌 Description
-A Windows console-based **Smart Lock** written in C. It supports multiple doors, each with its own password and optional hint. The program enforces a basic password policy (first letter capital, length ≥ 8). On wrong attempts it triggers an audible alarm and flashes the console. After **5 failed attempts**, it shows a warning **popup** and runs a **10-second countdown**. *(SMS alert code removed.)*
+A Windows console-based **Smart Lock** written in C. It supports multiple doors, each with its own password and optional hint. The program enforces a basic password policy (first letter capital, length ≥ 8). On wrong attempts it triggers an audible alarm and flashes the console. After **5 failed attempts**, it shows a warning **popup** and runs a **10-second countdown**. 
 
 ---
 
@@ -19,7 +19,7 @@ A Windows console-based **Smart Lock** written in C. It supports multiple doors,
 ## 📂 Project Structure
 ```
 ├── lock.c     # Smart Lock implementation (Windows C console app)
-└── README.md  # Project documentation
+└── Description.md  # Project documentation
 ```
 
 ---
