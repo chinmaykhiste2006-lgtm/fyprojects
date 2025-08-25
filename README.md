@@ -9,7 +9,8 @@ Each project demonstrates problem-solving, coding proficiency, and collaboration
 
 ## ​ Projects Portfolio  
 
-### ​ [Smart Lock System using C](./Smart%20lock%20system%20using%20c)  
+### ​ [Smart Lock System using C]### <a href="./Smart%20lock%20system%20using%20c" style="color:black; text-decoration:none;">Smart Lock System using C</a>
+  
 - 🔒 **Objective**: Design and implement a password-protected smart lock system using c.  
 - 🛠 **Tech Stack**: C Programming.  
 - 📌 **Key Features**:  
