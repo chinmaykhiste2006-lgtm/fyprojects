@@ -43,7 +43,7 @@ python plag4.py
 
 ### Run user interface:
 ```bash
-python app.py
+streamlit run app.py
 ```
 
 ---
