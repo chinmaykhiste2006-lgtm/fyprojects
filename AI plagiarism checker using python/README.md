@@ -38,7 +38,7 @@ A Python-based project that predicts whether a text file is **AI-generated** or 
 ## ▶️ Usage
 ### Run AI detection:
 ```bash
-python plag4.py
+python main.py
 ```
 
 ### Run user interface:
